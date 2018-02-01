@@ -13,12 +13,15 @@ gemfile: # Supported
   - gemfiles/mysql2/4-2.gemfile
   - gemfiles/mysql2/5-0.gemfile
   - gemfiles/mysql2/5-1.gemfile
+  - gemfiles/mysql2/5-2.gemfile
   - gemfiles/postgresql/4-2.gemfile
   - gemfiles/postgresql/5-0.gemfile
   - gemfiles/postgresql/5-1.gemfile
+  - gemfiles/postgresql/5-2.gemfile
   - gemfiles/sqlite3/4-2.gemfile
   - gemfiles/sqlite3/5-0.gemfile
   - gemfiles/sqlite3/5-1.gemfile
+  - gemfiles/sqlite3/5-2.gemfile
 rvm: # Supported
   - 2.2.7
   - 2.3.4
@@ -56,18 +59,18 @@ matrix:
       rvm: 2.4.1
     # MRI Ruby head
     - rvm: ruby-head
-      gemfile: gemfiles/mysql2/5-1.gemfile
+      gemfile: gemfiles/mysql2/5-2.gemfile
     - rvm: ruby-head
-      gemfile: gemfiles/postgresql/5-1.gemfile
+      gemfile: gemfiles/postgresql/5-2.gemfile
     - rvm: ruby-head
-      gemfile: gemfiles/sqlite3/5-1.gemfile
+      gemfile: gemfiles/sqlite3/5-2.gemfile
     # JRuby head
     - rvm: jruby-head
-      gemfile: gemfiles/mysql2/5-1.gemfile
+      gemfile: gemfiles/mysql2/5-2.gemfile
     - rvm: jruby-head
-      gemfile: gemfiles/postgresql/5-1.gemfile
+      gemfile: gemfiles/postgresql/5-2.gemfile
     - rvm: jruby-head
-      gemfile: gemfiles/sqlite3/5-1.gemfile
+      gemfile: gemfiles/sqlite3/5-2.gemfile
     #
     # The past
     #
